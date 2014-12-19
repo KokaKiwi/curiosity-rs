@@ -1,0 +1,12 @@
+[package]
+
+name = "curiosity"
+version = "0.1.0"
+authors = [
+    "KokaKiwi <kokakiwi@kokakiwi.net>",
+]
+
+[dependencies]
+docopt = "*"
+docopt_macros = "*"
+semver = "*"
