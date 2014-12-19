@@ -1,10 +1,10 @@
 
-#[deriving(Show, Clone)]
+#[deriving(Show, Clone, Encodable, Decodable)]
 pub struct Stats {
     pub metrics: Vec<Metric>,
 }
 
-#[deriving(Show, Clone)]
+#[deriving(Show, Clone, Encodable, Decodable)]
 pub struct Metric {
     pub id: String,
     pub name: String,

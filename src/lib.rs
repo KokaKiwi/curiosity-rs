@@ -1,4 +1,5 @@
 extern crate semver;
+extern crate serialize;
 extern crate syntax;
 
 pub use stats::Stats;
